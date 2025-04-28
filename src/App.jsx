@@ -132,7 +132,7 @@ const App = () => {
             <ul className="text-white space-y-2 overflow-hidden">
               {filteredTodos.map((item, idx) => (
                 <li
-                  className="flex justify-between items-center bg-white/10 p-3 rounded-lg font-mono uppercase tracking-wider transition-all duration-500 ease-in-out"
+                  className="flex justify-between items-center bg-white/10 p-3 rounded-lg font-mono uppercase tracking-wider"
                   key={idx}
                 >
                   {editModeIndex === idx ? (
